@@ -50,3 +50,27 @@ if we need to add an error or remove an error
 
 # create a new file currentUser.js
 
+user: {} 
+
+user starts to an empty Object
+
+when logged out set user to an empty object and isAuthenticated to false
+
+switch on an action type
+
+# how we are going to change state
+
+current user.js
+
+isAuthenticated: Object.keys(action.user).length > 0
+
+returns a boolean
+
+## !!Object.keys(action.user).length
+
+turns an empty object into false 
+
+or if there are keys turns into into true
+
+
+
