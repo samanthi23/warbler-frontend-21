@@ -11,10 +11,6 @@
 
     * `npm install`
     * `npm start`
-    
-# set up git for this
-
-warbler-end-frontend-21
 
 # store/reducers
 
@@ -71,6 +67,14 @@ returns a boolean
 turns an empty object into false 
 
 or if there are keys turns into into true
+
+same as using Boolean(Object.keys(action.user).length) here
+
+Boolean constuctor
+
+# then bundle those together in index.js
+
+review rootReducer
 
 
 
